@@ -9,13 +9,12 @@
 	"scripts": {
 		"start": "node src/index.js",
 		"format": "prettier --write .",
-		"lint": "eslint ./src/",
+		"build": "npm install"
 		"lint:fix": "eslint ./src/ --fix"
 	},
 	"keywords": [
 		"proxy"
 	],
-	"packageManager": "pnpm@10.28.0",
 	"author": "",
 	"license": "GPL-3.0-or-later",
 	"devDependencies": {
